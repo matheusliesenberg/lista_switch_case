@@ -8,10 +8,34 @@
     */
 
     //ENTRADA
-
-
+    let n1 = Number(prompt(`Informe um número!`).trim().replace(",","."));
+    let n2 = Number(prompt(`Informe outro número novamente!`).trim().replace(",","."));
+    let operacao = prompt(`Qual operação deseja realizar adição (+) subtração (-) divisão (/) mutiplicação (*)!`).trim();
     //PROCESSAMENTO
-
+    switch (n1 %2 ) {
+        case 0:
+        alert(`O seu número é par!`);
+            break;
+        case 1:
+        alert(`O seu número é impar!`);
+        break;
+        default:
+        alert(`Você não colocou um número`);
+            break;
+    }
+    
+    switch (n2 %2 ) {
+        case 0:
+        alert(`O seu número é par!`);
+            break;
+        case 1:
+        alert(`O seu número é impar!`);
+        break;
+        default:
+        alert(`Você não colocou um número`);
+            break;
+    }
+    
     
     //SAÍDA
 

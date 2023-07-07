@@ -12,10 +12,22 @@
     */
 
     //ENTRADA
-    
-    
+    let turno = prompt(`Em que turno você estuda M (Matutino) V (Vespertino) N (Noturno)`).trim().toUpperCase();
     //PROCESSAMENTO
-
+    switch (turno) {
+        case `M`:
+        alert(`Bom Dia!`);
+            break;
+        case `V`:
+        alert(`Boa Tarde!`);
+            break;
+        case `N`:
+        alert(`Boa Noite!`);
+        default:
+        alert(`Valor Inválido!`)
+            break;
+    
+    }
     
     //SAÍDA
 

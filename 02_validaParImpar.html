@@ -5,10 +5,19 @@
     */
 
     //ENTRADA
-
-    
-    //PROCESSAMENTO
-
+    const Numerointeiro = Number(prompt(`Infome um número inteiro.`).trim());
+    //PROCESSAMENTO)
+    switch (Numerointeiro %2 ) {
+        case 0:
+        alert(`O seu número é par!`);
+            break;
+        case 1:
+        alert(`O seu número é impar!`);
+        break;
+        default:
+        alert(`Você não colocou um número`);
+            break;
+    }
     
     //SAÍDA
 
